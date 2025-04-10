@@ -82,7 +82,7 @@ export function Hero() {
     isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
   }`}
 >
-  MIKDAD MK
+  Mikkuuu
 </h1>
           <p className="text-lg md:text-xl text-zinc-400 mb-8 max-w-2xl">
             Join the worlds most widely adopted Mikku AI-powered developer platform.
