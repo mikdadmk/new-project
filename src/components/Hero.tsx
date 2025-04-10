@@ -78,10 +78,10 @@ export function Hero() {
       <div className="relative z-10 container mx-auto px-4 py-20 md:py-32 max-w-7xl">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            Build and ship software on a single, collaborative platform
+         ABDULLA MIKDAD MK
           </h1>
           <p className="text-lg md:text-xl text-zinc-400 mb-8 max-w-2xl">
-            Join the worlds most widely adopted AI-powered developer platform.
+            Join the worlds most widely adopted Mikku AI-powered developer platform.
           </p>
 
           <div className="w-full max-w-xs mb-10">
