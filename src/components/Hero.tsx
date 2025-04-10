@@ -77,9 +77,13 @@ export function Hero() {
 
       <div className="relative z-10 container mx-auto px-4 py-20 md:py-32 max-w-7xl">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-          MIKDAD MK
-          </h1>
+         <h1
+  className={`text-4xl md:text-6xl font-bold text-white mb-6 transition-all duration-500 ease-in-out ${
+    isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+  }`}
+>
+  MIKDAD MK
+</h1>
           <p className="text-lg md:text-xl text-zinc-400 mb-8 max-w-2xl">
             Join the worlds most widely adopted Mikku AI-powered developer platform.
           </p>
